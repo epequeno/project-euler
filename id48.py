@@ -10,15 +10,12 @@ Created on Wed Jul 20 18:59:48 2011
 # Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000.
 
 def last10():
-    i = 0
+    i = 1
     total = 0
-    while i <= 10:
+    while i <= 1000:
         total += i**i
         i += 1
-    total -= 1 # because I was lazy and used "i" as the counter and the 
-    # thing with which to do the math the value of total is 1 more than it 
-    # should be so line 18 is to adjust for that
     total = str(total)
-    return total
+    return total[-10:]
     
 print last10()
