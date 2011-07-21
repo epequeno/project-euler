@@ -12,13 +12,13 @@ Created on Wed Jul 20 18:59:48 2011
 def last10():
     i = 0
     total = 0
-    while i <= 1000:
+    while i <= 10:
         total += i**i
         i += 1
     total -= 1 # because I was lazy and used "i" as the counter and the 
     # thing with which to do the math the value of total is 1 more than it 
     # should be so line 18 is to adjust for that
     total = str(total)
-    return total[-10:]
+    return total
     
 print last10()
