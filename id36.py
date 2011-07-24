@@ -5,7 +5,14 @@ Created on Thu Jul 21 08:44:14 2011
 @author: steven
 """
 
-# id 36
+# project euler problem ID 36
+# The decimal number, 585 = 10010010012 (binary), is palindromic in both bases.
+#
+# Find the sum of all numbers, less than one million, which are palindromic in
+# base 10 and base 2.
+#
+# (Please note that the palindromic number, in either base, may not include
+# leading zeros.)
 
 def is_pal(n):
    n = str(n)
