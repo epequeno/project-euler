@@ -25,3 +25,7 @@ def count():
     return seed
 
 print count()
+
+# real    32m2.097s
+# user    31m41.095s
+# sys     0m17.069s

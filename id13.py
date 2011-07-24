@@ -119,3 +119,7 @@ def total():
    print total[:10]
 
 total()
+
+# real    0m0.009s
+# user    0m0.000s
+# sys     0m0.008s

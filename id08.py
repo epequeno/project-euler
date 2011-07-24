@@ -44,3 +44,7 @@ def product():
     return max(candidates)
 
 print product()
+
+# real    0m0.016s
+# user    0m0.012s
+# sys     0m0.004s

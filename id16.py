@@ -17,3 +17,7 @@ def total():
    return total
 
 print total()
+
+# real    0m0.010s
+# user    0m0.016s
+# sys     0m0.000s

@@ -29,9 +29,10 @@ def total():
        if is_pal(i) and is_pal_bin(bin(i)):
            results.append(i)
        i += 1
-   total = 0
-   for x in results:
-       total += x
-   return total
+   return sum(results)
 
 print total()
+
+# real    0m0.618s
+# user    0m0.608s
+# sys     0m0.016s

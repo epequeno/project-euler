@@ -19,3 +19,7 @@ def last10():
     return total[-10:]
     
 print last10()
+
+# real    0m0.066s
+# user    0m0.068s
+# sys     0m0.000s

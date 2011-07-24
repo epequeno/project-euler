@@ -25,3 +25,7 @@ def generate():
     return results
 
 print max(generate())
+
+# real    0m0.554s
+# user    0m0.544s
+# sys     0m0.012s

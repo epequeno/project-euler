@@ -18,3 +18,7 @@ def problem():
     return total
 
 print problem()
+
+# real    0m0.021s
+# user    0m0.008s
+# sys     0m0.012s

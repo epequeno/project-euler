@@ -22,11 +22,15 @@ def fibo(n):
 
 def control():
     i = 0
-    sum = 0
+    total = 0
     while fibo(i) < 4000000:
         if fibo(i) % 2 == 0:
-            sum = sum + fibo(i)
+            total += fibo(i)
         i += 1
-    print sum
+    print total
 
 control()
+
+# real    0m16.848s
+# user    0m16.841s
+# sys     0m0.008s

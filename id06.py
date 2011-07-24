@@ -34,3 +34,7 @@ def diff():
     return sq_sum() - sum_sq()
 
 print diff()
+
+# real    0m0.009s
+# user    0m0.000s
+# sys     0m0.008s
