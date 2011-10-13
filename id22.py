@@ -52,3 +52,36 @@ count()
 # real    0m0.045s
 # user    0m0.036s
 # sys     0m0.008s
+
+# Method 2:
+    
+#def alphabetize():
+#   ordered = []
+#   for item in names:
+#       ordered.append(item.strip('"'))
+#   ordered.sort()
+#   return ordered
+#
+#names = alphabetize()
+#
+#def name_score(name):
+#    total = 0
+#    for letter in name:
+#        total += (ord(letter) - 64)
+#    return total
+#    
+#def position_score(name):
+#    return names.index(name) + 1
+#    
+#def summation():
+#    names = alphabetize()
+#    total = 0
+#    for name in names:
+#        total += (name_score(name) * position_score(name))
+#    return total
+#
+#print summation()
+
+#real   0m0.282s
+#user	0m0.276s
+#sys	0m0.004s
