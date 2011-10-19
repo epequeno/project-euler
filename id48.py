@@ -23,3 +23,18 @@ print last10()
 # real    0m0.066s
 # user    0m0.068s
 # sys     0m0.000s
+
+# Method 2:
+
+#def last10():
+#   total = 0
+#   for i in range(1, 1001):
+#       total += i**i
+#   total = str(total)
+#   return total[-10:]
+
+#print last10()
+
+#real   0m0.047s
+#user	0m0.032s
+#sys	0m0.012s
