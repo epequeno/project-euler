@@ -49,10 +49,9 @@ print total()
 #def total():
 #   i = 0
 #   results = []
-#   while i < 1000000:
+#   for i in range(1, 1000001):
 #       if is_pal(i) and is_pal_bin(bin(i)):
 #           results.append(i)
-#       i += 1
 #   return sum(results)
 #
 #print total()
