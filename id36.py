@@ -55,3 +55,7 @@ print total()
 #   return sum(results)
 #
 #print total()
+
+#real    0m0.473s
+#user    0m0.460s
+#sys     0m0.012s
