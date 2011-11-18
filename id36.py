@@ -36,3 +36,23 @@ print total()
 # real    0m0.618s
 # user    0m0.608s
 # sys     0m0.016s
+
+# method 2:
+#def is_pal(n):
+#   n = str(n)
+#   return n == n[::-1]
+#
+#def is_pal_bin(n):
+#   n = n[2:]
+#   return n == n[::-1]
+#
+#def total():
+#   i = 0
+#   results = []
+#   while i < 1000000:
+#       if is_pal(i) and is_pal_bin(bin(i)):
+#           results.append(i)
+#       i += 1
+#   return sum(results)
+#
+#print total()
