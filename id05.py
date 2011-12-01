@@ -10,6 +10,7 @@ Created on Fri Jul  8 21:24:20 2011
 # What is the smallest positive number that is evenly divisible by all of the
 # numbers from 1 to 20? 232792560
 
+"""
 def is_div(n):
     a = []
     for i in range(1, 21):
@@ -23,9 +24,34 @@ def count():
         seed += 1
         is_div(seed)
     return seed
-
-print count()
+"""
 
 # real    32m2.097s
 # user    31m41.095s
 # sys     0m17.069s
+
+#Version 2:
+
+def is_div(n):
+    i = 1
+    while i < 21:
+        if n % i != 0:
+            return False
+        else:
+            i += 1
+    return True
+
+def test():
+    init = 1
+    while is_div(init) != True:
+        init += 1
+    return init
+
+print test()
+
+
+#real    2m29.845s
+#user    2m29.701s
+#sys	 0m0.016s
+
+
