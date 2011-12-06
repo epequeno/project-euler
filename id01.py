@@ -22,3 +22,7 @@ print problem()
 # real    0m0.021s
 # user    0m0.008s
 # sys     0m0.012s
+
+# version 2
+
+print sum([x for x in range(1, 1000) if x % 3 == 0 or x % 5 == 0])
