@@ -33,7 +33,7 @@ def count():
 #Version 2:
 
 def is_div(n):
-    i = 1
+    i = 2
     while i < 21:
         if n % i != 0:
             return False
@@ -42,7 +42,7 @@ def is_div(n):
     return True
 
 def test():
-    init = 1
+    init = 2520
     while is_div(init) != True:
         init += 1
     return init
@@ -50,8 +50,9 @@ def test():
 print test()
 
 
-#real    2m29.845s
-#user    2m29.701s
-#sys	 0m0.016s
+#real    1m54.848s
+#user    1m54.723s
+#sys	 0m0.044s
+
 
 
