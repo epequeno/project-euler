@@ -14,7 +14,7 @@ Created on Mon Dec 26 23:07:14 2011
 def find_that_number():
     x = 2
     matches = 0
-    while matches != 5:
+    while True:
         for multiplier in range(2, 7):
             if sorted(str(x)) == sorted(str(x * multiplier)):
                 matches += 1
