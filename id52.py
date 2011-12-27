@@ -20,6 +20,7 @@ def find_that_number():
                 matches += 1
         if matches == 5:
             print x
+            break
         else:
             x += 1
             matches = 0
