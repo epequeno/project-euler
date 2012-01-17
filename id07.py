@@ -11,9 +11,3 @@ Created on Sat Jul  9 11:33:47 2011
 #
 # What is the 10001st prime number?
 
-def prime():
-    count = 0
-    number = 2
-    results = []
-    while count < 10001:
-        for in in range:
