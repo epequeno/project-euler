@@ -11,3 +11,18 @@ Created on Sat Jul  9 11:33:47 2011
 #
 # What is the 10001st prime number?
 
+primes = []
+n = 2
+
+def is_prime(n):
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+while len(primes) != 10001:
+    if is_prime(n):
+        primes.append(n)
+    n += 1
+   
+print max(primes)
