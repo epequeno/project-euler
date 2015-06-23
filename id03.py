@@ -22,7 +22,7 @@ def primeFactors(n, factor):
 
     return factors
 
-print primeFactors(600851475143, 2)
+print max(primeFactors(600851475143, 2))
 
 # real    0m0.023s
 # user    0m0.012s

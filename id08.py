@@ -28,14 +28,14 @@ Created on Mon Jul 11 12:52:01 2011
 # 05886116467109405077541002256983155200055935729725
 # 71636269561882670428252483600823257530420752963450
 
-number = open('number2.txt')
-number = str(number.read())
+number = open('number2.txt').read()
+#number = str(number.read())
 
 def product():
     candidates = []
     i = 0
-    while i < (len(number) - 5):
-        group = number[i:i + 5]
+    while i < (len(number) - 13):
+        group = number[i:i + 13]
         total = 1
         for digit in group:
             total *= int(digit)
